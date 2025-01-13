@@ -53,25 +53,9 @@ resetButton.addEventListener("click", () => {
   <a href="https://akomsowana-ai.github.io/DigitalLiteracy/myPage.html">Visit our webpage</a> <br>
   
 
-<p id="ip-address"></p>
 
-<script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Fetch the IP address from the API
-            fetch("https://akomsowana-ai.github.io/DigitalLiteracy/?format=json")
-                .then(response => response.json())
-                .then(data => {
-                    // Display the IP address on the screen
-                    document.getElementById("ip-address").textContent = data.ip;
-                })
-                .catch(error => {
-                    console.error("Error fetching IP address:", error);
-                });
-        });
-
-  <br>
     <img src="sea.jpg" alt="Pattani Bay" width="460" height="400">
-    </script>
+  
   
 </body>
 
